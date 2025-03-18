@@ -1,0 +1,23 @@
+pip install pyautogui pillow moseinfo
+
+
+
+python -m venv venv
+.\venv\Scripts\activate
+pip install flask requests
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
+
+pip install pyinstaller
+
+
+https://www.youtube.com/watch?v=pNBjC32nisg
+
+
+Para abrir o mouseinfo:
+>>python
+>>from mouseinfo import mouseInfo
+>>mouseInfo()
+
+
